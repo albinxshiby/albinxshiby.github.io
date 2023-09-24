@@ -189,8 +189,8 @@ body{
     position: absolute;
     width: 25px;
     height: 25px;
-    top: .5rem;
-    right: 1.8rem;
+    bottom: .4rem;
+    right: .4rem;
     z-index: 3;
     transition: .3s;
     opacity: .8;
