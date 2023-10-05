@@ -8,5 +8,8 @@
  ### LIVE DEMO:-
  Website demo link [here](https://albinxshiby.github.io)
 
+ ### LICENSE
+ License is added for this project
+ 
  ### MAYBE FIND ME HERE
  @albinxshiby
