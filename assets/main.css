@@ -574,7 +574,9 @@
             flex-direction: row;
             flex-wrap: wrap;
         }
-
+        .n01{
+            cursor:not-allowed;
+        }
         #buttons01 li a {
             display: inline-block;
             width: auto;
@@ -692,10 +694,12 @@
         }
 
         .links li {
+            cursor:progress;
             position: relative;
         }
 
         .links li a {
+            cursor:progress;
             direction: var(--site-language-direction);
             display: block;
         }

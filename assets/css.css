@@ -37,7 +37,9 @@
 body{
     font-family: 'Acme-Regular', sans-serif;
 }
-
+p{
+    cursor:text;
+}
 .icons-container {
     padding: -5rem 0;
     text-align:left;
@@ -167,6 +169,7 @@ body{
 
 
 .mail {
+    cursor:pointer;
     font-family: 'Acme-Regular', sans-serif;
     position: absolute;
     width: 38px;
@@ -186,6 +189,7 @@ body{
     opacity: 1;
 }
 .logo {
+    cursor:pointer;
     position: absolute;
     width: 30px;
     height: 30px;
