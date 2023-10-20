@@ -169,10 +169,10 @@ body{
 .mail {
     font-family: 'Acme-Regular', sans-serif;
     position: absolute;
-    width: 34px;
-    height: 30px;
-    top: .4rem;
-    right: .4rem;
+    width: 38px;
+    height: 34px;
+    top: .5rem;
+    right: .5rem;
     z-index: 3;
     transition: .3s;
     opacity: .8;
@@ -187,10 +187,10 @@ body{
 }
 .logo {
     position: absolute;
-    width: 25px;
-    height: 25px;
-    bottom: .4rem;
-    right: .4rem;
+    width: 30px;
+    height: 30px;
+    bottom: .5rem;
+    right: .5rem;
     z-index: 3;
     transition: .3s;
     opacity: .8;
