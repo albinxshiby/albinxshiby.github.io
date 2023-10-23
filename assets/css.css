@@ -222,4 +222,15 @@ p{
 
 /* NAVIGATION MENU FOR SPECIAL EDIT LI END */
 
+/* BUTTONS */
+.n01{
+            cursor:pointer;
+        }
+.n03{
+    cursor:progress;
+}
+.n04{
+    cursor:not-allowed;
+}
+/* BUTTONS END */
 

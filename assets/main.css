@@ -574,9 +574,7 @@
             flex-direction: row;
             flex-wrap: wrap;
         }
-        .n01{
-            cursor:not-allowed;
-        }
+
         #buttons01 li a {
             display: inline-block;
             width: auto;
@@ -587,7 +585,7 @@
             font-family: 'AveriaSansLibre-Regular', sans-serif;
             font-size: 1em;
             font-weight: 400;
-            border-radius: 1.125rem;
+            border-radius: 1rem;
             direction: var(--site-language-direction);
             overflow: hidden;
             text-overflow: ellipsis;
