@@ -435,12 +435,12 @@
         #text02 {
             text-align: left;
             color: var(--title-color);
-            font-family: 'Skranji-Regular', cursive;
-            letter-spacing: -0.125rem;
+            font-family: 'Blaka-Regular', cursive;
+            letter-spacing: 0rem;
             width: 100%;
             font-size: 3em;
             line-height: 0.75;
-            font-weight: 400;
+            font-weight: 300;
         }
 
         #text02 a {
