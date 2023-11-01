@@ -436,7 +436,7 @@
             text-align: left;
             color: var(--title-color);
             font-family: 'Blaka-Regular', cursive;
-            letter-spacing: 0rem;
+            letter-spacing: 0.1rem;
             width: 100%;
             font-size: 3em;
             line-height: 0.75;
@@ -757,7 +757,7 @@
             }
 
             #text02 {
-                letter-spacing: -0.109375rem;
+                letter-spacing: 0.1rem;
                 width: 100%;
                 font-size: 3em;
                 line-height: 0.90;
