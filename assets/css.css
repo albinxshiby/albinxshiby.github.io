@@ -16,19 +16,19 @@
 /* CUSTON FONT ADDED */
 @font-face {
     font-family: 'Acme-Regular';
-    src: url('Acme-Regular.ttf') format('truetype');
+    src: url('fonts/Acme-Regular.ttf') format('truetype');
 }
 @font-face {
     font-family: 'AveriaSansLibre-Regular';
-    src: url('AveriaSansLibre-Regular.ttf') format('truetype');
+    src: url('fonts/AveriaSansLibre-Regular.ttf') format('truetype');
 }
 @font-face {
     font-family: 'AveriaSerifLibre-Regular';
-    src: url('AveriaSerifLibre-Regular.ttf') format('truetype');
+    src: url('fonts/AveriaSerifLibre-Regular.ttf') format('truetype');
 }
 @font-face {
     font-family: 'Skranji-Regular';
-    src: url('Skranji-Regular.ttf') format('truetype');
+    src: url('fonts/Skranji-Regular.ttf') format('truetype');
 }
 
 /* CUSTION FONT END  */
@@ -184,10 +184,12 @@ p{
     filter: contrast(20%);
 }
 
+
 .mail:hover {
     color: red;
     opacity: 1;
 }
+
 .logo {
     cursor:pointer;
     position: absolute;
