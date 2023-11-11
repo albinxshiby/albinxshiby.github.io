@@ -45,7 +45,13 @@ p{
     text-align:left;
 }
 
+.t-img{
+    transition: .3s;
+    width: 8rem;
+    height: 8rem;
+    display: inline;
 
+}
 .icon {
     margin-right: 3.5px;
     margin-top: 12px;
