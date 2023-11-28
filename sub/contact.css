@@ -1,0 +1,83 @@
+/* Style the website for desktop devices */
+@media only screen and (min-width: 768px) {
+  header {
+    text-align: center;
+  }
+
+  main {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .contact-info,
+  .social-media,
+  .contact-form {
+    width: 30%;
+  }
+}
+
+/* Style the website for mobile devices */
+@media only screen and (max-width: 767px) {
+  header {
+    text-align: center;
+  }
+
+  main {
+    display: block;
+  }
+
+  .contact-info,
+  .social-media,
+  .contact-form {
+    width: 100%;
+  }
+}
+
+/* General styles */
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color:#171c28;
+  color:yellow;
+}
+
+header,
+main,
+footer {
+  padding: 20px;
+}
+
+h1,
+h2 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: red;
+}
+
+img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+
+button {
+  padding: 10px;
+  background-color: brown;
+
