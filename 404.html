@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Website</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color:#dcd0c9;
+            color:#363636;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .image-container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        img {
+            max-width: 100%;
+            display: block;
+            margin: 0 auto;
+            margin-top:2rem;
+            margin-bottom:2rem;
+        }
+h2{
+text-align:center;}
+        .description {
+            text-align: center;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        @media (max-width: 768px) {
+            .description {
+                font-size: 14px;
+            }
+        }
+        .link{
+        color:red;
+        text-align:center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="image-container">
+            <img src="assets/img/404.png" alt="Responsive Image">
+        </div>
+        <h2>404 ErroR</h2>
+        <p class="description">Hey bro, I can't find the page u r looking, i think u entered the incorrect URL [ Just recheck that ]. or let help inform me the problem</p>
+        <a class="link" href="/">Home Page Link</a>
+    </div>
+</body>
+</html>
