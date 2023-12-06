@@ -183,7 +183,7 @@
             min-width: 320px;
             overflow-x: hidden;
             word-wrap: break-word;
-            background-image:url(img/bg1.png);
+            background-image:url();
             background-color: var(--body-color);
 
         }
