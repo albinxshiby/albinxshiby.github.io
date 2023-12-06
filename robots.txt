@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://albinxshiby.github.io/sitemap.xml
