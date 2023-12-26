@@ -1,5 +1,5 @@
 :root {
-    --body-color: #dcd0c9;
+    --body-color: #f7f7f7;
     --card-color: #fbfbfe;
     --title-color: #363636;
     --text-color: #666;
@@ -185,6 +185,7 @@
             word-wrap: break-word;
             background-image:url();
             background-color: var(--body-color);
+
 
         }
 
