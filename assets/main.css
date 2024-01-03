@@ -438,6 +438,7 @@
         #text02 {
             text-align: left;
             color: var(--title-color);
+            cursor:text;
             font-family: 'Blaka-Regular', cursive;
             letter-spacing: 0.1rem;
             width: 100%;
@@ -721,6 +722,7 @@
             color: #363636;
             text-decoration: none;
             color: var(--title-color);
+            cursor:pointer;
         }
 
         #links01 li a:hover {
@@ -765,6 +767,7 @@
                 width: 100%;
                 font-size: 3em;
                 line-height: 0.90;
+                cursor:text;
             }
 
             #text03:not(:first-child) {
