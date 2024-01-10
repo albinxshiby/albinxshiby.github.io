@@ -36,7 +36,7 @@
 
 body{
     font-family: 'Acme-Regular', sans-serif;
-    cursor:no-drop;
+
 }
 p{
     cursor:text;
@@ -51,7 +51,7 @@ p{
     width: 8rem;
     height: 8rem;
     display: inline;
-    cursor:progress;
+
 
 }
 .icon {
@@ -246,7 +246,7 @@ p{
 
 
 
-/* customizable snowflake styling */
+/* customizable snowflake styling
 .snowflake {
   color: #fff;
   font-size: 1em;
@@ -272,5 +272,5 @@ color: #000;
 
 
 
-
+ SNOWFLAKE SNOW END*/
 
