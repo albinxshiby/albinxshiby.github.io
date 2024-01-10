@@ -36,7 +36,7 @@
 
 body{
     font-family: 'Acme-Regular', sans-serif;
-
+    cursor:no-drop;
 }
 p{
     cursor:text;
@@ -48,10 +48,10 @@ p{
 
 .t-img{
     transition: .3s;
-    width: auto;
-    height: 6rem;
+    width: 8rem;
+    height: 8rem;
     display: inline;
-
+    cursor:progress;
 
 }
 .icon {
@@ -62,7 +62,7 @@ p{
     height: 28px;
     display: inline;
     filter: contrast(5%);
-    filter: brightness(50%);
+    filter: brightness(35%);
 
 }
 
@@ -189,6 +189,7 @@ p{
     opacity: .8;
     color: red;
     text-decoration: none;
+    filter: contrast(20%);
 }
 
 
@@ -208,6 +209,7 @@ p{
     transition: .3s;
     opacity: .8;
     cursor:pointer;
+    filter: contrast(20%);
 }
 
 .logo:hover {
@@ -244,7 +246,7 @@ p{
 
 
 
-/* customizable snowflake styling
+/* customizable snowflake styling */
 .snowflake {
   color: #fff;
   font-size: 1em;
@@ -270,5 +272,5 @@ color: #000;
 
 
 
- SNOWFLAKE SNOW END*/
+
 
