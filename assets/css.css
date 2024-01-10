@@ -48,8 +48,8 @@ p{
 
 .t-img{
     transition: .3s;
-    width: 8rem;
-    height: 8rem;
+    width: auto;
+    height: 6rem;
     display: inline;
 
 
@@ -62,7 +62,7 @@ p{
     height: 28px;
     display: inline;
     filter: contrast(5%);
-    filter: brightness(35%);
+    filter: brightness(50%);
 
 }
 
@@ -189,7 +189,6 @@ p{
     opacity: .8;
     color: red;
     text-decoration: none;
-    filter: contrast(20%);
 }
 
 
@@ -209,7 +208,6 @@ p{
     transition: .3s;
     opacity: .8;
     cursor:pointer;
-    filter: contrast(20%);
 }
 
 .logo:hover {
