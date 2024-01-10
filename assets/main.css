@@ -1,9 +1,9 @@
 :root {
-    --body-color: #ffffff;
-    --card-color: #fbfbfe;
-    --title-color: #363636;
-    --text-color: #666;
-    --number-color: #333;
+    --body-color: #6A4952;
+    --card-color: #fff;
+    --title-color: #fff;
+    --text-color: #fff;
+    --number-color: #fff;
 }
 
 [data-theme="dark"] {
@@ -591,7 +591,7 @@
             font-family: 'AveriaSansLibre-Regular', sans-serif;
             font-size: 1em;
             font-weight: 400;
-            border-radius: 1rem;
+            border-radius: 0.9rem;
             direction: var(--site-language-direction);
             overflow: hidden;
             text-overflow: ellipsis;
