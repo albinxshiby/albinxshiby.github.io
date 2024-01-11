@@ -241,7 +241,7 @@
         code {
             background-color: rgba(144, 144, 144, 0.25);
             border-radius: 0.25em;
-            font-family: 'Lucida Console', 'Courier New', monospace;
+            font-family: 'Acme-Regular', 'Courier New', monospace;
             font-size: 0.9em;
             font-weight: normal;
             letter-spacing: 0;
@@ -438,13 +438,12 @@
         #text02 {
             text-align: left;
             color: var(--title-color);
-            cursor:text;
-            font-family: 'Blaka-Regular', cursive;
-            letter-spacing: 0.1rem;
+            font-family: 'Acme-Regular', cursive;
+            letter-spacing: 0rem;
             width: 100%;
-            font-size: 3em;
+            font-size: 2.4em;
             line-height: 0.75;
-            font-weight: 300;
+            font-weight: 600;
         }
 
         #text02 a {
@@ -470,7 +469,7 @@
         #text03 {
             text-align: left;
             color: var(--title-color);
-            font-family: 'AveriaSerifLibre-Regular', serif;
+            font-family: 'Acme-Regular', serif;
             font-size: 1.1em;
             line-height: 0.75;
             font-weight: 400;
@@ -500,7 +499,7 @@
         opacity:0.8;
             text-align: left;
             color: var(--title-color);
-            font-family: 'AveriaSansLibre-Regular', sans-serif;
+            font-family: 'Acme-Regular', sans-serif;
             font-size: 1em;
             line-height: 1.75;
             font-weight: 400;
@@ -588,9 +587,9 @@
             line-height: 2.25rem;
             padding: 0 1.125rem;
             vertical-align: middle;
-            font-family: 'AveriaSansLibre-Regular', sans-serif;
-            font-size: 1em;
-            font-weight: 400;
+            font-family: 'Acme-Regular', sans-serif;
+            font-size: 0.9em;
+            font-weight:200;
             border-radius: 0.9rem;
             direction: var(--site-language-direction);
             overflow: hidden;
@@ -713,9 +712,9 @@
             gap: 0.5rem;
             flex-direction: row;
             flex-wrap: wrap;
-            font-family: 'AveriaSansLibre-Regular', sans-serif;
-            font-size: 0.625em;
-            font-weight: 300;
+            font-family: 'Acme-Regular', sans-serif;
+            font-size: 0.580em;
+            font-weight: 100;
         }
 
         #links01 li a {

@@ -16,20 +16,9 @@
 /* CUSTON FONT ADDED */
 @font-face {
     font-family: 'Acme-Regular';
-    src: url('fonts/Acme-Regular.ttf') format('truetype');
+    src: url('Acme-Regular.ttf') format('truetype');
 }
-@font-face {
-    font-family: 'AveriaSansLibre-Regular';
-    src: url('fonts/AveriaSansLibre-Regular.ttf') format('truetype');
-}
-@font-face {
-    font-family: 'AveriaSerifLibre-Regular';
-    src: url('fonts/AveriaSerifLibre-Regular.ttf') format('truetype');
-}
-@font-face {
-    font-family: 'Blaka-Regular';
-    src: url('fonts/Blaka-Regular.ttf') format('truetype');
-}
+
 
 /* CUSTION FONT END  */
 
@@ -49,7 +38,7 @@ p{
 .t-img{
     transition: .3s;
     width: auto;
-    height: 6rem;
+    height: 8rem;
     display: inline;
 
 
@@ -61,11 +50,10 @@ p{
     width: 28px;
     height: 28px;
     display: inline;
-    filter: contrast(5%);
-    filter: brightness(50%);
+    filter: contrast(50%);
+    filter: brightness(80%);
 
 }
-
 
 
 /* POPUP SECTION (FOR NAVIGATION MENU MAINLY) */
