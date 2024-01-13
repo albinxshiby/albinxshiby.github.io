@@ -38,7 +38,7 @@ p{
 .t-img{
     transition: .3s;
     width: auto;
-    height: 8rem;
+    height: 6rem;
     display: inline;
 
 
@@ -178,7 +178,6 @@ p{
     color: red;
     text-decoration: none;
 }
-
 
 .mail:hover {
     color: red;
