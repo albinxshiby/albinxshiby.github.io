@@ -1,7 +1,7 @@
 :root {
-    --body-color: #6A4952;
+    --body-color: #ffffff;
     --card-color: #fff;
-    --title-color: #fff;
+    --title-color: #27272a;
     --text-color: #fff;
     --number-color: #fff;
 }
@@ -583,14 +583,18 @@
         #buttons01 li a {
             display: inline-block;
             width: auto;
-            height: 2.25rem;
-            line-height: 2.25rem;
+            height: 1.8rem;
+            line-height: 1.6rem;
             padding: 0 1.125rem;
             vertical-align: middle;
             font-family: 'Acme-Regular', sans-serif;
-            font-size: 0.9em;
-            font-weight:200;
-            border-radius: 0.9rem;
+            font-size: 0.8em;
+            font-weight:10;
+           
+            transform: skew(5deg);
+            
+            box-shadow: 0 4px #999;
+            border-radius: 0.2rem;
             direction: var(--site-language-direction);
             overflow: hidden;
             text-overflow: ellipsis;
@@ -598,12 +602,14 @@
         }
 
         #buttons01 .button {
-            background-color: #363636;
-            color: #FFFFFF;
+            border: 1px solid #292b36; /* Green */
+            color: var(--title-color);
         }
 
         #buttons01 .button:hover {
             background-color: #606C82 !important;
+            transform: translateY(4px);
+            color:white;
         }
 
         .icons {
@@ -612,6 +618,7 @@
             justify-content: var(--flex-alignment);
             letter-spacing: 0;
             padding: 0;
+            margin-top: auto;
         }
 
         .icons li {
@@ -692,7 +699,7 @@
             display: flex;
             justify-content: var(--flex-alignment);
             letter-spacing: 0;
-            line-height: 1.5;
+            line-height: 0;
             padding: 0;
         }
 
