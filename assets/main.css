@@ -1,5 +1,5 @@
 :root {
-    --body-color: #ffffff;
+    --body-color: #f7f7f7;
     --card-color: #fff;
     --title-color: #27272a;
     --text-color: #fff;
@@ -583,8 +583,8 @@
         #buttons01 li a {
             display: inline-block;
             width: auto;
-            height: 1.8rem;
-            line-height: 1.6rem;
+            height: 2rem;
+            line-height: 1.8rem;
             padding: 0 1.125rem;
             vertical-align: middle;
             font-family: 'Acme-Regular', sans-serif;
