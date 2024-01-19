@@ -1,15 +1,15 @@
 :root {
     --body-color: #f7f7f7;
-    --card-color: #fff;
-    --title-color: #27272a;
-    --text-color: #fff;
-    --number-color: #fff;
+    --card-color: #f7f7f7;
+    --title-color: black;
+    --text-color: #f7f7f7;
+    --number-color: #f7f7f7;
 }
 
 [data-theme="dark"] {
     --body-color: #171c28;
     --card-color: #110e1b;
-    --title-color: #e7e7e7;
+    --title-color: #434c5e;
     --text-color: #434c5e;
     --number-color: #434c5e;
 }
@@ -518,20 +518,7 @@
             margin-top: 1rem;
         }
 
-        hr {
-            align-items: center;
-            border: 0;
-            display: flex;
-            justify-content: var(--flex-alignment);
-            min-height: 1rem;
-            padding: 0;
-            position: relative;
-            width: 100%;
-        }
 
-        hr:before {
-            content: '';
-        }
 
         #divider01:not(:first-child) {
             margin-top: 0.25rem !important;
@@ -591,10 +578,10 @@
             font-size: 0.8em;
             font-weight:10;
            
-            transform: skew(5deg);
+            transform: skew(4deg);
             
             box-shadow: 0 4px #999;
-            border-radius: 0.2rem;
+            border-radius: 0.1rem;
             direction: var(--site-language-direction);
             overflow: hidden;
             text-overflow: ellipsis;
@@ -602,7 +589,7 @@
         }
 
         #buttons01 .button {
-            border: 1px solid #292b36; /* Green */
+            border: 0.5px solid #292b36; /* Green */
             color: var(--title-color);
         }
 

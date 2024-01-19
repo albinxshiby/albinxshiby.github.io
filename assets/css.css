@@ -38,14 +38,16 @@ p{
 .t-img{
     transition: .3s;
     width: auto;
-    height: 7rem;
+    height: 8rem;
     display: inline;
+    margin-bottom: -15px;
+    margin-left: -8px;
 
 
 }
 .icon {
-    margin-right: 3.5px;
-    margin-top: 14px;
+    margin-right: 4px;
+    margin-top: 16px;
     transition: .3s;
     width: 26px;
     height: 26px;
@@ -54,7 +56,11 @@ p{
     filter: brightness(80%);
 
 }
-
+.icon:hover{
+    
+    transform: translateY(-3px);
+    
+}
 
 /* POPUP SECTION (FOR NAVIGATION MENU MAINLY) */
 .popup {
