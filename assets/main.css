@@ -178,14 +178,16 @@
         }
 
         body {
+            overflow:hidden;
+            height:100vh;
             line-height: 1.0;
             min-height: var(--viewport-height);
             min-width: 320px;
             overflow-x: hidden;
             word-wrap: break-word;
-            background-image:url();
+            background-image:url(); 
             background-color: var(--body-color);
-
+            
 
         }
 
