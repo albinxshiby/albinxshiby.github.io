@@ -1,17 +1,17 @@
 :root {
-    --body-color: #f7f7f7;
-    --card-color: #f7f7f7;
-    --title-color: #263238;
+    --body-color: #fbfbfe;
+    --card-color: #fbfbfe;
+    --title-color: #242329;
     --text-color: #f7f7f7;
     --number-color: #f7f7f7;
 }
 
 [data-theme="dark"] {
     --body-color: #171c28;
-    --card-color: #110e1b;
-    --title-color: #434c5e;
-    --text-color: #434c5e;
-    --number-color: #434c5e;
+    --card-color: #14191a;
+    --title-color: #42ada6;
+    --text-color: #8099a4;
+    --number-color: #8099a4;
 }
 
 
@@ -849,7 +849,7 @@
             }
 
             #text02 {
-                font-size: 2.6em;
+                font-size: 2.1em;
             }
 
             #text03 {
