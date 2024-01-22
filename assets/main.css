@@ -509,11 +509,15 @@
 
         #text01 a {
         opacity:0.7;
-            text-decoration: underline;
+        text-decoration: none;
+            
         }
 
         #text01 a:hover {
-            text-decoration: none;
+            transform: translateY(-3px);
+            transform: rotateX('30');
+            transition: 2s;
+            text-decoration: underline;
         }
 
         #text01 span.p:nth-child(n + 2) {
