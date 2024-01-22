@@ -25,6 +25,8 @@
 
 body{
     font-family: 'Acme-Regular', sans-serif;
+    overflow:hidden;
+    height:100vh;
 
 }
 p{
