@@ -55,7 +55,6 @@
 
 body {
     background-color: var(--body-color);
-    cursor:zoom-in;
     overflow:hidden;
     height:100vh;
 }
@@ -153,10 +152,10 @@ body {
 
 .main .image {
     position: relative;
-    width: 110px;
-    height: 110px;
+    width: 120px;
+    height: 120px;
   /*  border-radius: 50%; */
-    background: url('img/main.png') no-repeat center / cover;
+    background: url('img/brain.gif') no-repeat center / cover;
   /*  border: 4px solid #498fd4; */
     margin-bottom: 1px;
     overflow: hidden;
