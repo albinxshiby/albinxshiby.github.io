@@ -368,27 +368,25 @@ body{
         height: 230px;
     }
 
-    .hamburger-menu{
-        width: 16px;
-        height: 12px;
-        top: 1.1rem;
-        left: 1.5rem;
-    }
+
 
     .mail{
         font-size: 1.1rem;
-        top: .75rem;
-        right: 1.5rem;
+        top: .4rem;
+        right: .5rem;
     }
 
     .main .image{
-        width: 90px;
-        height: 90px;
+        width: 120px;
+        height: 120px;
         border-width: 3px;
     }
 
-    .name, .sub-name{
-        font-size: 1rem;
+    .name{
+        font-size: 1.3rem;
+    } 
+    .sub-name{
+        font-size: 0.7rem;
     }
 
     .content{
@@ -404,16 +402,16 @@ body{
     }
 
     .right{
-        padding-top: 1rem;
+        padding-top: 2rem;
     }
 
     .title{
-        font-size: .9rem;
+        font-size: 1.1rem;
         margin-bottom: .5rem;
     }
 
     .text{
-        font-size: .8rem;
+        font-size: 1rem;
     }
 
     .icons-container{
