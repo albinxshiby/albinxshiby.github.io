@@ -1,3 +1,40 @@
+/* CUSTOM TEXT SELECTION COLORS */
+::-moz-selection {
+    /* Code for Firefox */
+    color: red;
+    background: yellow;
+}
+
+::selection {
+    color: red;
+    background: yellow;
+}
+
+/* CUSTOM TEXT SELECTION COLOR END */
+
+
+
+
+/* NAVIGATION MENU SPECIAL EDIT FOR LI */
+.menuli {
+    text-decoration: none;
+    color: white;
+    line-height: 4rem;
+}
+
+.menuli:hover {
+    color: grey;
+}
+
+/* NAVIGATION MENU FOR SPECIAL EDIT LI END */
+
+
+
+
+
+
+
+
 /* POPUP SECTION (FOR NAVIGATION MENU MAINLY) */
 .popup {
 
@@ -111,7 +148,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: #FFF;
+    background: transparent;
     box-shadow: ;
     border-radius: 3px
 }
@@ -127,13 +164,16 @@
 }
 
 .popup__text {
-    font-size: 15px;
+    color: aliceblue;
+    font-size: 20px;
 }
 
-
+.btn {
+    background-color: grey;
+}
 
 a {
-    color: brown;
+    color: white;
     text-decoration: none;
 }
 
@@ -148,7 +188,7 @@ a {
     display: inline-block;
     font-size: 14px;
     margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0rem;
 }
 
 @media (min-width:768px) {
@@ -157,17 +197,11 @@ a {
         margin-bottom: 1em;
     }
 }
-
-
-/* NAVIGATION MENU SPECIAL EDIT FOR LI */
-.menuli {
-    text-decoration: none;
-    color: white;
-    line-height: 4rem;
+.icons {
+    margin-right: 3.5px;
+    transition: .3s;
+    width: 24px;
+    height: 24px;
+    display: inline;
+    filter: contrast(2%);
 }
-
-.menuli:hover {
-    color: grey;
-}
-
-/* NAVIGATION MENU FOR SPECIAL EDIT LI END */
