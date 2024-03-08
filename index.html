@@ -12,6 +12,13 @@
     <link rel="shortcut icon" type="image/png" href="img/icon.png" />
 </head>
 <body>
+    <!-- right click disabling script/////////////////////////////////////////////////////////////////////////// -->
+    <script>
+        document.addEventListener("contextmenu", e => {
+            alert("Sorry! Right Click is disabled");
+            e.preventDefault();
+        });
+    </script>
     <div class="modal">
         <img src="img/day.gif" alt="">
         <div class="close"></div>
@@ -28,7 +35,7 @@
                             <i class="fas fa-camera fa-2x"></i>
                         </div>
                     </div>
-                    <h3 class="name">Hi, I'm Albin S</h3>
+                    <h3 class="name">Hi, I'm Albin Shiby!</h3>
                     <h3 class="sub-name">uname - @albinxshiby</h3>
                 </div>
             </div>
