@@ -92,24 +92,28 @@ button:hover{
 color: white;
 }
 .btn{
-background-color:#eaeaed;
+background-color:#f1e7e7;
+transform: skew(5deg);
 position: relative;
 margin-right:4px;
   display: inline-block;
   color: black;
-  border-radius:7px;
+  border-radius:0.2rem;
   font-size: 15px;
   font-family: 'East Sea Dokdo', cursive;
   text-decoration: none;
   margin-top:5px;
-  border: 1px solid transparent;
+  border: 1px solid black;
   padding: 6px 20px;
   text-transform: uppercase;
   transition: 1s all ease;
   margin-bottom:5px;
+  box-shadow: 0 4px #999;
 }
 .btn:hover{
-color: red;
+    background-color: #606C82 !important;
+            transform: translateY(4px);
+            color:white;
 }
 
 .heading-secondary {
@@ -209,6 +213,8 @@ hr{
 }
 .icon:hover{
 filter:grayscale(10%);
+transform: translateY(-4px);
+transition: .5s;
 }
 .navigation__checkbox {
     display: none
@@ -412,7 +418,7 @@ filter:grayscale(10%);
 .header__description {
 font-family: 'East Sea Dokdo', cursive;
     max-width: 90rem;
-    font-size: 1.8rem;
+    font-size: 2rem;
     color: white;
     opacity: ;
     text-align:left;
@@ -422,7 +428,7 @@ font-family: 'East Sea Dokdo', cursive;
     .header__description {
     font-family: 'East Sea Dokdo', cursive;
         width: 80%;
-        font-size: 2.5rem;
+        font-size: 2.7rem;
         text-align:left;
     }
 }
