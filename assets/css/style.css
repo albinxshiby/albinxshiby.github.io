@@ -28,7 +28,7 @@ html {
     color: red;
 }
 
-body {
+html, body {
     background-image:linear-gradient(
           rgba(0, 0, 0, 0.6), 
           rgba(0, 0, 0, 0.6)
@@ -39,6 +39,7 @@ body {
     background-repeat: no-repeat;
 font-family: 'East Sea Dokdo', cursive;
 overflow: hidden;
+margin: 0; height: 100%;
 }
 
 p {
