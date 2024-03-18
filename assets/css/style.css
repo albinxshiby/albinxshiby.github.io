@@ -5,6 +5,25 @@
     padding: 0;
     box-sizing: inherit;
 }
+:root {
+    --body-color: #f7f7f7;
+    --card-color: #110e1b;
+    --title-color: var(--text-color);
+    --text-color: #878485;
+    --btn-text: black;
+    --btn-bg: #f1e7e7;
+    --btn-border: black;
+}
+
+[data-theme="light"] {
+    --body-color: black;
+    --card-color: #f7f7f7;
+    --title-color: #555;
+    --text-color: #878485;
+    --btn-text: #807d7e;
+    --btn-bg: black;
+    --btn-border: #807d7e;
+}
 
 html {
     font-size: 62.5%;
@@ -12,34 +31,33 @@ html {
     font-family: 'East Sea Dokdo', cursive;
 }
 
-.appie{
-    color: #fff;
-    font-size: large;
-    margin-bottom: 3rem;
-    text-decoration: none;
+.logo{
+    filter:contrast(10%);
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    bottom: .8rem;
+    right: .9rem;
+    z-index: 3;
+    transition: .3s;
+    opacity: .8;
+    cursor:pointer;
 }
-.appie1{
-    color: #fff;
-    font-size: large;
-    margin-bottom: 3rem;
-    text-decoration: none;
-}
-.appie1:hover{
-    color: red;
+.logo:hover{
+    opacity: 1;
 }
 
 html, body {
-    background-image:linear-gradient(
+   /* background-image:linear-gradient(
           rgba(0, 0, 0, 0.6), 
           rgba(0, 0, 0, 0.6)
-        ), url('bg1.jpg');
-        background-color:#0a0a0a;
+        ), url(''); */
+        background-color:var(--body-color);
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
 font-family: 'East Sea Dokdo', cursive;
 overflow: hidden;
-margin: 0; height: 100%;
 }
 
 p {
@@ -48,44 +66,24 @@ p {
 font-family: 'East Sea Dokdo', cursive;
 }
 
-
-
 .intro-text {
     max-width: 50rem;
     margin: 0 auto;
-    color: white;
+    color: var(--text-color);
     font-size: 5rem;
     margin-left: 0;
-    
+    margin-bottom:-1.8rem;
 font-family: 'East Sea Dokdo', cursive;
 }
 
 @media (min-width:768px) {
     .intro-text {
-      color: white;
-        font-size: 9rem;
+      color: var(--text-color);
+        font-size: 8rem;
         max-width: 120rem;
         text-align: left;
+        margin-bottom:-2rem;
 font-family: 'East Sea Dokdo', cursive;
-    }
-}
-
-.heading-primary {
-
-font-family: 'East Sea Dokdo', cursive;
-    font-weight: 200;
-    color: white;
-    opacity: 1;
-    display: inline-block;
-    font-size: 9rem;
-    text-align: left;
-}
-
-@media (min-width:768px) {
-    .heading-primary {
-      color: white;
-        font-size: 9rem;
-        font-family: 'East Sea Dokdo', cursive;
     }
 }
 
@@ -107,19 +105,20 @@ button{
 button:hover{
 color: white;
 }
+
 .btn{
-background-color:#f1e7e7;
+background-color:var(--btn-bg);
 transform: skew(5deg);
 position: relative;
 margin-right:4px;
   display: inline-block;
-  color: black;
+  color: var(--btn-text);
   border-radius:0.2rem;
   font-size: 15px;
   font-family: 'East Sea Dokdo', cursive;
   text-decoration: none;
   margin-top:5px;
-  border: 1px solid black;
+  border: 1px solid var(--btn-border);
   padding: 6px 20px;
   text-transform: uppercase;
   transition: 1s all ease;
@@ -130,44 +129,6 @@ margin-right:4px;
     background-color: #606C82 !important;
             transform: translateY(4px);
             color:white;
-}
-
-.heading-secondary {
-    font-size: 2.4rem;
-    font-weight: 900;
-    text-align:left;
-}
-
-.heading-secondary:after {
-    content: "";
-    display: block;
-    margin: 2rem auto;
-    height: 2px;
-    width: 12rem;
-    background-color: black;
-}
-
-@media (min-width:768px) {
-    .heading-secondary:after {
-        margin: 3rem auto
-    }
-}
-
-@media (min-width:768px) {
-    .heading-secondary {
-        font-size: 4.5rem
-    }
-}
-
-.heading-tertiary {
-    font-size: 2.2rem;
-    font-weight: 00
-}
-
-@media (min-width:768px) {
-    .heading-tertiary {
-        font-size: 2.4rem
-    }
 }
 
 .u-text-center {
@@ -197,25 +158,6 @@ margin-right:4px;
         float: left
     }
 }
-hr {
-   width: 40%;
-   height: 1px;
-   border: 0 none;
-   background-color: white;
-   text-align:left;
-   color:white;
-}
-
-@media (min-width:768px) {
-hr{
-   width: 15%;
-   height: 1px;
-   border: 0 none;
-   background-color: white;
-   text-align:left;
-   }
-}
-
 
 .icon{
     width: 25px;
@@ -415,7 +357,6 @@ transition: .5s;
     transform: rotate(-135deg)
 }
 
-
 .header {
     font-family: 'East Sea Dokdo', cursive;
     
@@ -433,9 +374,9 @@ transition: .5s;
 
 .header__description {
 font-family: 'East Sea Dokdo', cursive;
-    max-width: 90rem;
+    max-width: 80rem;
     font-size: 2rem;
-    color: white;
+    color: var(--text-color);
     opacity: ;
     text-align:left;
 }
@@ -449,143 +390,4 @@ font-family: 'East Sea Dokdo', cursive;
     }
 }
 
-.header__director {
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    padding-bottom: 1rem;
-    transform: translateX(-50%);
-    color: #fff;
-    opacity: .7
-}
-
-@media (min-width:768px) {
-    .header__director {
-        font-size: 1.7rem
-    }
-}
-
-.intro {
-    text-align: left;
-    background: #f4f4f4;
-    padding: 4rem 5rem 0rem;
-    border-radius:15px;
-    margin-left:1em;
-    margin-right:1em;
-    margin-bottom:1em;
-   box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.1); 
-}
-
-
-
-
-
-.glowing {
-    position: relative;
-    min-width: 700px;
-    height: 550px;
-    margin: -150px;
-    transform-origin: right;
-    animation: colorChange 5s linear infinite;
-  }
-  
-  .glowing:nth-child(even) {
-    transform-origin: left;
-  }
-  
-  @keyframes colorChange {
-    0% {
-      filter: hue-rotate(0deg);
-      transform: rotate(0deg);
-    }
-    100% {
-      filter: hue-rotate(360deg);
-      transform: rotate(360deg);
-    }
-  }
-  
-  .glowing span {
-    position: absolute;
-    top: calc(80px * var(--i));
-    left: calc(80px * var(--i));
-    bottom: calc(80px * var(--i));
-    right: calc(80px * var(--i));
-  }
-  
-  .glowing span::before {
-    content: "";
-    position: absolute;
-    top: 50%;
-    left: -8px;
-    width: 15px;
-    height: 15px;
-    background: #f00;
-    border-radius: 50%;
-  }
-  
-  .glowing span:nth-child(3n + 1)::before {
-    background: rgba(134,255,0,1);
-    box-shadow: 0 0 20px rgba(134,255,0,1),
-      0 0 40px rgba(134,255,0,1),
-      0 0 60px rgba(134,255,0,1),
-      0 0 80px rgba(134,255,0,1),
-      0 0 0 8px rgba(134,255,0,.1);
-  }
-  
-  .glowing span:nth-child(3n + 2)::before {
-    background: rgba(255,214,0,1);
-    box-shadow: 0 0 20px rgba(255,214,0,1),
-      0 0 40px rgba(255,214,0,1),
-      0 0 60px rgba(255,214,0,1),
-      0 0 80px rgba(255,214,0,1),
-      0 0 0 8px rgba(255,214,0,.1);
-  }
-  
-  .glowing span:nth-child(3n + 3)::before {
-    background: rgba(0,226,255,1);
-    box-shadow: 0 0 20px rgba(0,226,255,1),
-      0 0 40px rgba(0,226,255,1),
-      0 0 60px rgba(0,226,255,1),
-      0 0 80px rgba(0,226,255,1),
-      0 0 0 8px rgba(0,226,255,.1);
-  }
-  
-  .glowing span:nth-child(3n + 1) {
-    animation: animate 10s alternate infinite;
-  }
-  
-  .glowing span:nth-child(3n + 2) {
-    animation: animate-reverse 3s alternate infinite;
-  }
-  
-  .glowing span:nth-child(3n + 3) {
-    animation: animate 8s alternate infinite; 
-  }
-  
-  @keyframes animate {
-    0% {
-      transform: rotate(180deg);
-    }
-    50% {
-      transform: rotate(0deg);
-    }
-    100% {
-      transform: rotate(360deg);
-    }
-  }
-  
-  @keyframes animate-reverse {
-    0% {
-      transform: rotate(360deg);
-    }
-    
-    50% {
-      transform: rotate(180deg);
-    }
-    
-    100% {
-      transform: rotate(0deg);
-    }
-  }
-  
 
