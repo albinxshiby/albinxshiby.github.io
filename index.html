@@ -8,76 +8,25 @@
         <title>Albin Shiby | personal profile page | @albinxshiby</title>
         <link rel="icon" type="image/png" href="assets/icon.png" />
         <meta name="theme-color" content="#aea2a2">
-        <meta name="description" content="  
-ALBIN S
-Just Beware Of This Archenoephlick User,🕵🏻 He Use Arch BTW (Bye The Way)👻. A Design Minded One Who's Still learning, FOSS Supporter And Cyber Enthusiast.">
-        <meta itemprop="name" content="albinxshiby | Personal Page">
-        <meta itemprop="description" content="  
-ALBIN S
-Just Beware Of This Archenoephlick User,🕵🏻 He Use Arch BTW (Bye The Way)👻. A Design Minded One Who's Still learning, FOSS Supporter And Cyber Enthusiast.">
-
-        
         <link id="theme" rel="stylesheet" type="text/css" href="assets/css/style.css" />
         <style> @import url('https://api.fonts.coollabs.io/css2?family=East+Sea+Dokdo&display=swap'); </style>
-        
 </head>
 
 <body>
-<!-- right click disabling script/////////////////////////////////////////////////////////////////////////// -->
+<!-- right click disabling script///////////////////////////// -->
 <script>
         document.addEventListener("contextmenu", e => {
             alert("Sorry! Right Click is disabled");
             e.preventDefault();
         });
     </script>
-    <div class="glowing">
-    
-        <span style="--i:1;"></span>
-        
-        <span style="--i:2;"></span>
-        
-        <span style="--i:3;"></span>
-        
-      </div>
-      
-      <div class="glowing">
-        
-        <span style="--i:1;"></span>
-        
-        <span style="--i:2;"></span>
-        
-        <span style="--i:3;"></span>
-        
-      </div>
-      
-      <div class="glowing">
-        
-        <span style="--i:1;"></span>
-        
-        <span style="--i:2;"></span>
-        
-        <span style="--i:3;"></span>
-        
-      </div>
-      
-      <div class="glowing">
-        
-        <span style="--i:1;"></span>
-        
-        <span style="--i:2;"></span>
-        
-        <span style="--i:3;"></span>
-        
-      </div>
-      
+<!-- right click disabling script///////////////////////////// -->
         <header class="header" role="banner" id="header">
           <div class="navigation"> <input type="checkbox" class="navigation__checkbox" id="nav-toggle"> <label
                         for="nav-toggle" class="navigation__button"> <span class="navigation__icon"
                                 aria-label="toggle navigation menu">&nbsp;</span> </label>
                 <div class="navigation__background">&nbsp;</div>
-                  
                 <nav class="navigation__nav" role="navigation">
-               
                         <ul class="navigation__list">
                                 <li class="navigation__item"> <a href="https://albinxshiby.github.io/"
                                                 class="navigation__link"><span>01</span>Go Homepage</a> </li>
@@ -87,27 +36,19 @@ Just Beware Of This Archenoephlick User,🕵🏻 He Use Arch BTW (Bye The Way)�
                                                 class="navigation__link"><span>03</span>snowflakes</a> </li>
                                 <li class="navigation__item"> <a href="mailto:hellobylon@skiff.com"
                                                 class="navigation__link"><span>04</span>Contact me</a> </li>
-
                         </ul>
                 </nav>
         </div>
-                
         </header>
+
         <div class="header__text-box">
 <div class="intro-text">
-
     <span class="heading_primary">Hi, I'm Albin S</span>
     </div>
-               <hr />
-                        <p class="header__description">I'm an uncertified arch_linux user 
+                        <p class="header__description">Uncertified arch_lnx user,
                                 #foss hacktivist && cyborg.
                         </p><br>
-                        <div class="appie">
-                                <a href="#" class="appie1"> Insta / </a>
-                                <a> X App / </a>
-                                </div>
 <br>
-
                         <div class="icon">
                                 <a href="https://github.com/albinxshiby" target="_blank"><img class="icon"
                                         src="assets/img/icons/github.png"></img></a>
@@ -124,18 +65,25 @@ Just Beware Of This Archenoephlick User,🕵🏻 He Use Arch BTW (Bye The Way)�
                                         <a href="https://www.linkedin.com/in/albinshiby" target="_blank"><img class="icon"
                                         src="assets/img/icons/in.png"></img></a>
                             </div><br>
-<a class="btn" href="https://github.com/albinxshiby">Featured project's</a>
-<a class="btn" href="https://snowflake.torproject.org/">snowflakes</a>
+<a class="btn" href="https://github.com/albinxshiby">Project's</a>
 <a class="btn" href="mailto:hellobylon@skiff.com">Contact</a>
-
-   
     </div>
-    
                 </div>
-
 	</div>
-       
+       <a onclick="toggleTheme()" class="logo"><img src="assets/img/icons/dark.png" class="logo"></a>
         <script>for (var e = document.querySelector(".navigation__checkbox"), n = document.querySelectorAll(".navigation__link"), c = 0; c < n.length; ++c)n[c].addEventListener("click", function () { e.checked = !1 });</script>
+         <!-- Lets talk popup page END-->
+    <script>
+        function toggleTheme() {
+            var html = document.querySelector('html');
+            if (html.getAttribute('data-theme') === 'light') {
+                html.setAttribute('data-theme', 'dark');
+            } else {
+                html.setAttribute('data-theme', 'light');
+            }
+        }
+
+    </script>
 </body>
 
 </html>
