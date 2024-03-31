@@ -7,14 +7,14 @@ body {
   src: url('ProtestRevolution-Regular.ttf') format('truetype');
 }
 :root {
-  --body-color: #fff;
+  --body-color: #f7f7f7;
   --text-color: #171c28;
   --link-color: rgb(203, 200, 38);
 }
 
 [data-theme="light"] {
   --body-color: #171c28;
-  --text-color: #fff;
+  --text-color: #f7f7f7;
   --link-color: rebeccapurple;
 }
 /* CUSTION FONT END  */
