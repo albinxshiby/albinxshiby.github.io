@@ -7,15 +7,28 @@ body {
   src: url('ProtestRevolution-Regular.ttf') format('truetype');
 }
 :root {
-  --body-color: #000;
+  --body-color: #f7f7f7;
+  --text-color: #171c28;
+  --link-color: rebeccapurple;
+  --shad-color: rgba(255, 255, 255, .25);
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --body-color: #171c28;
+  --text-color: #f7f7f7;
+  --link-color: rebeccapurple;
+  --shad-color: rgba(255, 255, 255, .25);
+  }
+}
+[data-theme="dark"] {
+  --body-color: #171c28;
   --text-color: #f7f7f7;
   --link-color: rebeccapurple;
   --shad-color: rgba(255, 255, 255, .25);
 }
-
 [data-theme="light"] {
-  --body-color: #171c28;
-  --text-color: #f7f7f7;
+  --body-color: #f7f7f7;
+  --text-color: #171c28;
   --link-color: rebeccapurple;
   --shad-color: rgba(255, 255, 255, .25);
 }
@@ -34,6 +47,18 @@ h3{
 }
 h1 {
   font-size: 1.6em;
+}
+.soc{
+  color: rebeccapurple;
+  text-decoration: none;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  font-size: small;
+}
+.soc:hover{
+  transition-duration: 0.4s;
+  color: red;
+  font-size: small;
 }
 
 /*blog post font color*/
@@ -79,6 +104,7 @@ img {
   width: 150px;
   border-radius: 50px;
   margin-bottom: 1px;
+  filter: brightness(90%);
 }
 
 /*header/navbar*/
@@ -107,6 +133,8 @@ img {
 .nav-masthead .nav-link:hover,
 .nav-masthead .nav-link:focus {
   border-bottom-color: var(--shad-color);
+  transition-duration: .5s;
+  transform: translateY(-2px);
 }
 
 .nav-masthead .nav-link+.nav-link {
