@@ -186,3 +186,7 @@ kbd {
 
   font-size: 13px !important;
 }
+.foot{
+  font-size: x-small;
+  word-wrap: break-word;
+}
