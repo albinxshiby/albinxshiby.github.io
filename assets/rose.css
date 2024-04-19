@@ -1,10 +1,18 @@
 body {
-  font-family: 'ProtestRevolution-Regular', sans-serif !important;
+  font-family: 'Satisfy-Regular', sans-serif !important;
 }
 /* CUSTON FONT ADDED */
 @font-face {
   font-family: 'ProtestRevolution-Regular';
   src: url('ProtestRevolution-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Lugrasimo-Regular';
+  src: url('Lugrasimo-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Satisfy-Regular';
+  src: url('Satisfy-Regular.ttf') format('truetype');
 }
 :root {
   --body-color: #f7f7f7;
@@ -43,7 +51,12 @@ a:hover {
 }
 h3{
   color: var(--text-color);
-  font-size: 1.7em;
+  font-size: xxx-large;
+}
+@media (max-width: 440px) {
+  h3 {
+    font-size: xx-large;
+  }
 }
 h1 {
   font-size: 1.6em;
@@ -53,7 +66,7 @@ h1 {
   text-decoration: none;
   margin-left: 0.5rem;
   margin-right: 0.5rem;
-  font-size: small;
+  font-size: medium;
 }
 .soc:hover{
   transition-duration: 0.4s;
@@ -64,6 +77,7 @@ h1 {
 /*blog post font color*/
 p {
   color: var(--text-color);
+  font-size: larger;
 }
 .text-white{
   color: var(--text-color);
